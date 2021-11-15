@@ -17,7 +17,7 @@ func (p *Circle) Draw() {
 	fmt.Println("draw a circle")
 }
 
-// 具体产品：三角形
+// 具体产品：长方形
 type Rectangle struct { }
 
 func (p *Rectangle) Draw() {

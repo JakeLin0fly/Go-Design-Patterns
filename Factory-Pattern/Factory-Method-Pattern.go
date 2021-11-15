@@ -12,7 +12,7 @@ package Factory_Pattern
 //	fmt.Println("draw a circle")
 //}
 //
-//// 具体产品：三角形
+//// 具体产品：长方形
 //type Rectangle struct { }
 //
 //func (p *Rectangle) Draw() {
@@ -31,7 +31,7 @@ func (p *CircleFactory) CreateShape() IShape {
 	return &Circle{}
 }
 
-// 具体工厂：三角形工厂
+// 具体工厂：长方形工厂
 type RectangleFactory struct {}
 
 func (p *RectangleFactory) CreateShape() IShape {
