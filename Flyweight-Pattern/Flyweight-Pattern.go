@@ -50,7 +50,7 @@ func (o *OBox) Display(color string) {
 	fmt.Println("Box Shape: ", o.GetShape(), ", Color: ", color)
 }
 
-// 享元工厂：单例（恶汉）
+// 享元工厂：单例（饿汉）
 func init() {
 	factory = &boxFactory{hashMap: map[string]AbstractBox{
 		"I": &IBox{},

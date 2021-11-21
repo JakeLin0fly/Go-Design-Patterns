@@ -1,7 +1,7 @@
 package Singleton_Pattern
 
 func init() {
-	// 恶汉模式
+	// 饿汉模式
 	hInstance = &hungerSingleton{}
 }
 type hungerSingleton struct { }
